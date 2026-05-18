@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "YT Downloader",
+    "slug": "yt-downloader",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "platforms": ["android"],
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "android": {
+      "package": "com.yourname.ytdownloader",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "plugins": [
+      [
+        "expo-media-library",
+        {
+          "photosPermission": "Allow YT Downloader to save videos.",
+          "savePhotosPermission": "Allow YT Downloader to save videos.",
+          "isAccessMediaLocationEnabled": false
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "4c51ca60-ebc6-4b95-b80b-9ccd549f0395"
+      }
+    }
+  }
+}
