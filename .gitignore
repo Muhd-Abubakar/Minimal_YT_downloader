@@ -1,0 +1,103 @@
+# =========================
+# React Native + Flask
+# =========================
+
+# ---- OS files ----
+.DS_Store
+Thumbs.db
+
+# ---- Logs ----
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ---- Environment files ----
+.env
+.env.*
+!.env.example
+
+# ---- Node / React Native ----
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Expo
+.expo/
+.expo-shared/
+
+# Metro
+.metro-health-check*
+
+# React Native bundle
+*.bundle
+
+# Android
+android/.gradle/
+android/app/build/
+android/build/
+android/local.properties
+*.keystore
+*.jks
+
+# iOS
+ios/build/
+ios/Pods/
+*.xcworkspace
+*.xcuserdata
+*.xcuserstate
+DerivedData/
+
+# React Native generated
+coverage/
+dist/
+build/
+
+# ---- Python / Flask ----
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# Flask
+instance/
+.webassets-cache/
+
+# Python packaging
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Type checkers
+.mypy_cache/
+.pyre/
+.pytype/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# ---- Database ----
+*.sqlite3
+*.db
+
+# ---- IDEs ----
+.vscode/
+.idea/
+
+# ---- Misc ----
+tmp/
+temp/
+.cache/
